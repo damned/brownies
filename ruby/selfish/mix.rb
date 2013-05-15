@@ -13,6 +13,9 @@ module OurMixin
   def set_module_var(value)
     @module_var = value
   end
+  def get_module_var
+    @module_var
+  end
 end
 
 class LittleMixIncluded
