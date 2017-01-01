@@ -1,0 +1,53 @@
+presentation 'graphite' do
+  slide 'graphite' do
+    o 'what is it?'
+    o 'why use it?'
+    o 'how webteam uses it?'
+    o 'how to use it'
+    o 'what next?'
+  end
+
+  slide 'what is graphite?' do
+    o 'graph rendering web application'
+    o 'an ecosystem of components' do
+      o 'carbon - storage and query web api'
+      o 'whisper - round-robin file storage with retention'
+      o 'graphite - UI and image rendering'
+    end
+    o 'statsd - UDP proxy'
+    o 'many frontend tools'
+  end
+
+  slide 'why use graphite?' do
+    o 'etsy - worshipping at the church of graphs'
+    o 'statsd - make the barrier low'
+    o 'technically useful' do
+      o 'spot incidents'
+      o 'grok trends'
+      o 'live empathy'
+    end
+    o 'intended for value realisation'
+  end
+
+  slide 'how webteam uses graphite' do
+    o 'with collectd + write_graphite'
+    o 'use statsd'
+    o 'on build monitor'
+    o 'integration of different data'
+    o 'not for business value'
+  end
+
+  slide 'how to use graphite' do
+    o 'push stat from code'
+    o 'frontend data and graph browser'
+    o 'render urls'
+    o 'dashboard generation'
+  end
+
+  slide 'what next?' do
+    o 'better backend? ceres?'
+    o 'riemann?'
+    o 'better frontends?'
+    o 'story metrics?'
+  end
+end
